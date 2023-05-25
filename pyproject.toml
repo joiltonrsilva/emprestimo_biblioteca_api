@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "api-emprestimo-biblioteca"
+version = "0.1.0"
+description = ""
+authors = ["Joilton Ribeiro da Silva <dev.joiltonrsilva@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "api_emprestimo_biblioteca"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.2.1"
+django-ninja = "^0.21.0"
+django-extensions = "^3.2.1"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
