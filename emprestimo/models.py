@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
+from core.models import Usuario
 
 class Livro(models.Model):
     titulo = models.CharField("Nome", max_length=35, null=False, blank=False)
@@ -16,7 +16,7 @@ class Livro(models.Model):
 
 class Emprestimo(models.Model):
     livro_id = models.ForeignKey(Livro, on_delete=models.CASCADE, verbose_name="livro", null=False)
-    usuario_id = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name="usuario", related_name="todos", null=False)
+    usuario_id = models.ForeignKey(Usuario, on_delete=models.CASCADE, verbose_name="usuario", related_name="todos", null=False)
     data_emprestimo = models.DateField("Data de Empréstimo", null=False, blank=False)
     data_devolucao = models.DateField("Data de Devolução", null=False, blank=False)
 

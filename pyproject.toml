@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "api-emprestimo-biblioteca"
+name = "emprestimo-biblioteca-api"
 version = "0.1.0"
-description = ""
+description = "API para controle de emprestimos de livros desenvolvido em Python com Framework Django Ninja API."
 authors = ["Joilton Ribeiro da Silva <dev.joiltonrsilva@protonmail.com>"]
 readme = "README.md"
 packages = [{include = "api_emprestimo_biblioteca"}]
