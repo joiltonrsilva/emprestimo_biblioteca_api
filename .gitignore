@@ -166,5 +166,7 @@ cython_debug/
 
 # Others
 orientation_projects
+poetry.lock
+pyproject.toml
 
 # End of https://www.toptal.com/developers/gitignore/api/django
