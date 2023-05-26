@@ -2,7 +2,7 @@
 
 Projeto criado para controle de emprestimo de livro dos usuários na biblioteca.
 
-Equipe desenvolvimento do sistema: GEDAI.
+
 
 > Esse projeto foi desenvolvido usando Python 3.10, Django 4.2.1 e Django Ninja 0.21.0
 
@@ -97,4 +97,4 @@ O nome da env (por exemplo: nucepe_fuapi) pode ser escolhido outro nome de sua p
 - Para instalação no Windows, segue esse tutorial: http://www.rafaelzottesso.com.br/2019/02/instalacao-e-utilizacao-de-ambientes-virtuais-no-windows/
 
 
-OBS: Ficou pendente criar a DDL do BD; autenticação de Usuários e finalizar o endpoints.
+OBS: Ficou pendente criar a DDL do BD; autenticação de Usuários, criar os scripts de testes e finalizar o endpoints.
